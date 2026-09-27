@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tambah Materi - SKYWISE</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <a href="../../index.html">
+
+            <img
+                src="../../assets/images/skywise_navy.png"
+                alt="Logo Skywise"
+            >
+
+        </a>
+
+        <nav>
+
+            <a href="../../index.html">
+                Beranda
+            </a>
+
+            <a href="lessons.html">
+                Kelola Materi
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <header>
+
+            <h1>Tambah Materi</h1>
+
+            <p>
+                Tambahkan materi astronomi baru ke Skywise.
+            </p>
+
+        </header>
+
+
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <div>
+
+                <label for="title">
+                    Judul Materi
+                </label>
+
+                <input
+                    type="text"
+                    id="title"
+                    name="title"
+                    placeholder="Contoh: Saturnus"
+                    required
+                >
+
+            </div>
+
+
+            <div>
+
+                <label for="category">
+                    Tema
+                </label>
+
+                <select
+                    id="category"
+                    name="category"
+                    required
+                >
+
+                    <option value="">
+                        -- Pilih Tema --
+                    </option>
+
+                    <option value="1">
+                        🌍 Kita Ada di Mana?
+                    </option>
+
+                    <option value="2">
+                        ☀️ Tata Surya
+                    </option>
+
+                    <option value="3">
+                        ⭐ Bintang
+                    </option>
+
+                    <option value="4">
+                        🌌 Galaksi
+                    </option>
+
+                    <option value="5">
+                        🌠 Fenomena Langit
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div>
+
+                <label for="image">
+                    Gambar Materi
+                </label>
+
+                <input
+                    type="file"
+                    id="image"
+                    name="image"
+                    accept="image/*"
+                >
+
+            </div>
+
+
+            <div>
+
+                <label for="content">
+                    Isi Materi
+                </label>
+
+                <textarea
+                    id="content"
+                    name="content"
+                    rows="10"
+                    placeholder="Tulis isi materi di sini..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <div>
+
+                <button type="submit">
+                    Simpan Materi
+                </button>
+
+                <a href="lessons.html">
+                    Batal
+                </a>
+
+            </div>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy; 2026 Skywise. Semua hak dilindungi.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
