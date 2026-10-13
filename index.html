@@ -3,12 +3,13 @@
 <html lang="id">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>SKYWISE</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -16,143 +17,146 @@
 <body>
 
     <header>
-
-        <a href="index.html">
-
-            <img src="assets/images/skywise_navy.png" alt="Logo Skywise">
-
-        </a>
-
-        <nav>
-
-            <a href="index.html">Beranda</a>
-
-            <a href="#">Tentang</a>
-
+        <nav class="navbar navbar-expand-md bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/skywise_navy.png" alt="Logo Skywise" height="45">
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuUtama"
+                    aria-controls="menuUtama"
+                    aria-expanded="false"
+                    aria-label="Buka menu navigasi"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuUtama">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tentang</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-
     </header>
 
 
-    <main>
-
+    <main class="container py-4">
         <section id="hero">
-
-            <!-- Hero Section -->
-
             <h1>Yuk, Kenalan dengan Alam Semesta!</h1>
-
             <p>
                 Belajar astronomi dengan cara yang sederhana
                 dan menyenangkan.
             </p>
-
-            <h3>
-                <a href="#petualangan">
+            <p>
+                <a class="btn btn-primary btn-lg" href="#petualangan">
                     Mulai Petualanganmu 🚀
                 </a>
-            </h3>
-
+            </p>
         </section>
 
 
-        <section id="petualangan">
-
-            <!-- Materi Section -->
-
-            <article id="kita-ada-di-mana">
-
-                <h3>🌍 Kita Ada di Mana?</h3>
-
-                <p>
-                    Kenali Bumi dan tempat kita di alam semesta.
-                    Cari tahu bagaimana posisi Bumi dalam ruang
-                    yang begitu luas.
-                </p>
-
-                <a href="pages/lessons.html">
-                    Pelajari
-                </a>
-
-            </article>
+        <section id="petualangan" class="mt-4">
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article id="kita-ada-di-mana" class="card h-100">
+                        <div class="card-body">
+                            <h2 class="h4 card-title">🌍 Kita Ada di Mana?</h2>
+                            <p>
+                                Kenali Bumi dan tempat kita di alam semesta.
+                                Cari tahu bagaimana posisi Bumi dalam ruang
+                                yang begitu luas.
+                            </p>
+                            <a href="pages/lessons.html" class="btn btn-primary">
+                                Pelajari
+                            </a>
+                        </div>
+                    </article>
+                </div>
 
 
-            <article id="tata-surya">
-
-                <h3>☀️ Tata Surya</h3>
-
-                <p>
-                    Yuk, kenalan dengan Matahari dan planet-planet
-                    yang ada di sekitar kita.
-                </p>
-
-                <a href="pages/lessons.html">
-                    Pelajari
-                </a>
-
-            </article>
-
-
-            <article id="bintang">
-
-                <h3>⭐ Bintang</h3>
-
-                <p>
-                    Apa itu bintang? Bagaimana bintang bisa
-                    bersinar di langit malam?
-                </p>
-
-                <a href="pages/lessons.html">
-                    Pelajari
-                </a>
-
-            </article>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article id="tata-surya" class="card h-100">
+                        <div class="card-body">
+                            <h2 class="h4 card-title">☀️ Tata Surya</h2>
+                            <p>
+                                Yuk, kenalan dengan Matahari dan planet-planet
+                                yang ada di sekitar kita.
+                            </p>
+                            <a href="pages/lessons.html" class="btn btn-primary">
+                                Pelajari
+                            </a>
+                        </div>
+                    </article>
+                </div>
 
 
-            <article id="galaksi">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article id="bintang" class="card h-100">
+                        <div class="card-body">
+                            <h2 class="h4 card-title">⭐ Bintang</h2>
+                            <p>
+                                Apa itu bintang? Bagaimana bintang bisa
+                                bersinar di langit malam?
+                            </p>
+                            <a href="pages/lessons.html" class="btn btn-primary">
+                                Pelajari
+                            </a>
+                        </div>
+                    </article>
+                </div>
 
-                <h3>🌌 Galaksi</h3>
 
-                <p>
-                    Kenali galaksi tempat kita tinggal dan
-                    galaksi-galaksi lain di alam semesta.
-                </p>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article id="galaksi" class="card h-100">
+                        <div class="card-body">
+                            <h2 class="h4 card-title">🌌 Galaksi</h2>
+                            <p>
+                                Kenali galaksi tempat kita tinggal dan
+                                galaksi-galaksi lain di alam semesta.
+                            </p>
+                            <a href="pages/lessons.html" class="btn btn-primary">
+                                Pelajari
+                            </a>
+                        </div>
+                    </article>
+                </div>
 
-                <a href="pages/lessons.html">
-                    Pelajari
-                </a>
 
-            </article>
-
-
-            <article id="fenomena-langit">
-
-                <h3>🌠 Fenomena Langit</h3>
-
-                <p>
-                    Pelajari fenomena-fenomena langit yang
-                    menakjubkan, seperti gerhana, hujan meteor,
-                    dan aurora.
-                </p>
-
-                <a href="pages/lessons.html">
-                    Pelajari
-                </a>
-
-            </article>
-
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article id="fenomena-langit" class="card h-100">
+                        <div class="card-body">
+                            <h2 class="h4 card-title">🌠 Fenomena Langit</h2>
+                            <p>
+                                Pelajari fenomena-fenomena langit yang
+                                menakjubkan, seperti gerhana, hujan meteor,
+                                dan aurora.
+                            </p>
+                            <a href="pages/lessons.html" class="btn btn-primary">
+                                Pelajari
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
-
     </main>
 
 
     <footer>
-
         <p>
             &copy; 2026 Skywise. Semua hak dilindungi.
         </p>
-
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

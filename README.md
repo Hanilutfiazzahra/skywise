@@ -1,2 +1,3 @@
 # skywise
 Skywise - Edukasi Astronomi
+Skywise merupakan platform edukasi astronomi berbasis web yang dirancang untuk membantu pemula dan anak-anak mengenal alam semesta melalui materi pembelajaran yang sederhana, interaktif, dan menyenangkan. Materi mencakup pengenalan Bumi, Tata Surya, bintang, galaksi, hingga fenomena langit. Platform ini juga dirancang untuk mendukung pengelolaan materi oleh admin serta pengembangan fitur kuis dan galeri astronomi.
